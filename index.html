@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency Converter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="top-container">
+			<div class="header">
+				<img class="logo" src="images/pickar_logo_white.png">
+			</div>
+			<h1 class="heading">Convert currencies in real-time.</h1>
+			<div class="box">
+				<form class="form">
+					<div class="field">
+						<label class="field-label">Amount</label>
+						<input class="field-input" type="number" min="0">
+					</div>
+					<div class="field">
+						<label class="field-label">From</label>
+						<select class="field-input">
+						    <option value="volvo">Euro</option>
+						    <option value="saab">USD</option>
+						    <option value="opel">CHF</option>
+					  	</select>
+					</div>
+					<img class="converter" src="images/Switcher.png">
+					<div class="field">
+						<label class="field-label">To</label>
+						<select class="field-input">
+						    <option value="volvo">Euro</option>
+						    <option value="saab">USD</option>
+						    <option value="opel">CHF</option>
+					  	</select>
+					</div>
+					<button class="submit-button">Convert</button>
+				</form>
+			</div>
+		</div>
+		<div class="bottom-container">
+			<a class="link" href="history.html" />
+			View conversion history>
+			</a>
+			<div class="result">
+				<p>
+					1 EUR =
+					<br>
+					<span>
+						1.12392 USD
+					</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
